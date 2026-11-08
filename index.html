@@ -1,0 +1,120 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOOTRIX | Where Football Never Stops</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #080d18;
+  color: white;
+}
+header {
+  background: #101a2b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #19d98b;
+}
+.logo { font-size: 27px; font-weight: 900; color: #19d98b; }
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 14px;
+  font-size: 13px;
+}
+.hero {
+  padding: 65px 20px;
+  text-align: center;
+  background: linear-gradient(135deg,#102c32,#101a35);
+}
+.hero h1 { font-size: 42px; margin: 0; }
+.hero h1 span { color: #19d98b; }
+.hero p { color: #bdc8d5; line-height: 1.6; }
+.section { padding: 25px 20px; }
+.section h2 { border-left: 4px solid #19d98b; padding-left: 12px; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 15px;
+}
+.card {
+  background: #121d30;
+  border: 1px solid #26374d;
+  border-radius: 12px;
+  padding: 20px;
+}
+.card h3 { color: #19d98b; }
+.card p { color: #bdc8d5; line-height: 1.5; }
+.tag { color: #19d98b; font-size: 12px; font-weight: bold; }
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #101a2b;
+  color: #9eacbd;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">FOOTRIX ⚽</div>
+  <nav>
+    <a href="#news">NEWS</a>
+    <a href="#matches">MATCHES</a>
+    <a href="#transfers">TRANSFERS</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>WHERE FOOTBALL <span>NEVER STOPS.</span></h1>
+  <p>Your destination for football news, match updates,<br>
+  transfer stories and unforgettable moments.</p>
+</section>
+
+<section class="section" id="news">
+  <h2>📰 Latest Football News</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="tag">FOOTBALL NEWS</div>
+      <h3>Breaking News</h3>
+      <p>Discover the biggest stories from the world of football.</p>
+    </div>
+    <div class="card">
+      <div class="tag">EUROPEAN FOOTBALL</div>
+      <h3>Across Europe</h3>
+      <p>Follow the action from Europe's biggest competitions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="matches">
+  <h2>⚽ Matches & Results</h2>
+  <div class="card">
+    <h3>The Match Centre</h3>
+    <p>Fixtures, scores and match reports in one place.</p>
+  </div>
+</section>
+
+<section class="section" id="transfers">
+  <h2>🔥 Transfer Zone</h2>
+  <div class="card">
+    <h3>Transfer Central</h3>
+    <p>Follow confirmed transfers and credible transfer reports.</p>
+  </div>
+</section>
+
+<footer>
+  <h3>FOOTRIX ⚽</h3>
+  <p>One Game. One Passion. Endless Stories.</p>
+  <p>© 2026 FOOTRIX. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
